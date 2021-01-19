@@ -8,7 +8,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
 const notes = require("./db/notes");
 
 var app = express();
-var PORT = 8080;
+var PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

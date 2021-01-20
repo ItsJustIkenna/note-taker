@@ -5,6 +5,10 @@
 
 A full stack application for taking notes. Users are able to create, read, and delete notes. the notes are saved in a JSON file. The server was created using node.js and the express framework.
 
+## Screenshot
+
+![capture6](Capture6.PNG)
+
 ## Table Of Contents
 
 * [Installation](#installation)
